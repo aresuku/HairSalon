@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace pr_3._4.Migrations
+namespace pr_4._4.Migrations
 {
     /// <inheritdoc />
     public partial class Final6 : Migration

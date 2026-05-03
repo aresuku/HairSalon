@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JX3YPhLrwyI=",
+  "dgSpecHash": "bPLSLCrzg4s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tresk\\source\\repos\\pr_4.4\\pr_3.4\\pr_4.4.csproj",
+  "projectFilePath": "C:\\Users\\tresk\\source\\repos\\pr_4.4\\pr_4.4\\pr_4.4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tresk\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\tresk\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

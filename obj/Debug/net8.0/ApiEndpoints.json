@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "pr_3._4.Program\u002B\u003C\u003Ec",
+    "ContainingType": "pr_4._4.Program\u002B\u003C\u003Ec",
     "Method": "\u003CMain\u003Eb__0_4",
     "RelativePath": "api/config",
     "HttpMethod": "GET",
@@ -17,7 +17,7 @@
     "EndpointName": "GetConfig"
   },
   {
-    "ContainingType": "pr_3._4.Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "ContainingType": "pr_4._4.Program\u002B\u003C\u003Ec__DisplayClass0_0",
     "Method": "\u003CMain\u003Eb__1",
     "RelativePath": "api/masters",
     "HttpMethod": "GET",
@@ -34,7 +34,7 @@
     "EndpointName": "GetMasters"
   },
   {
-    "ContainingType": "pr_3._4.Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "ContainingType": "pr_4._4.Program\u002B\u003C\u003Ec__DisplayClass0_0",
     "Method": "\u003CMain\u003Eb__3",
     "RelativePath": "api/receptions",
     "HttpMethod": "GET",
@@ -51,7 +51,7 @@
     "EndpointName": "GetReceptions"
   },
   {
-    "ContainingType": "pr_3._4.Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "ContainingType": "pr_4._4.Program\u002B\u003C\u003Ec__DisplayClass0_0",
     "Method": "\u003CMain\u003Eb__2",
     "RelativePath": "api/services",
     "HttpMethod": "GET",
@@ -68,7 +68,7 @@
     "EndpointName": "GetServices"
   },
   {
-    "ContainingType": "pr_3._4.Program\u002B\u003C\u003Ec",
+    "ContainingType": "pr_4._4.Program\u002B\u003C\u003Ec",
     "Method": "\u003CMain\u003Eb__0_5",
     "RelativePath": "api/services",
     "HttpMethod": "POST",

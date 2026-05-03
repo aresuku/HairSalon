@@ -304,3 +304,5 @@ C:\Users\tresk\source\repos\pr_4.4\pr_4.4\obj\Debug\net8.0\refint\pr_4.4.dll
 C:\Users\tresk\source\repos\pr_4.4\pr_4.4\obj\Debug\net8.0\pr_4.4.pdb
 C:\Users\tresk\source\repos\pr_4.4\pr_4.4\obj\Debug\net8.0\pr_4.4.genruntimeconfig.cache
 C:\Users\tresk\source\repos\pr_4.4\pr_4.4\obj\Debug\net8.0\ref\pr_4.4.dll
+C:\Users\tresk\source\repos\pr_4.4\pr_3.4\obj\Debug\net8.0\pr_4.4.sourcelink.json
+C:\Users\tresk\source\repos\pr_4.4\pr_4.4\obj\Debug\net8.0\pr_4.4.sourcelink.json

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace pr_3._4.Migrations
+namespace pr_4._4.Migrations
 {
     [DbContext(typeof(HairSalonContext))]
     [Migration("20260421230811_inicial")]

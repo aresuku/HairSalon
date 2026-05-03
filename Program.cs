@@ -2,7 +2,7 @@ using Data;
 using Microsoft.EntityFrameworkCore;
 using Models;
 using Services;
-namespace pr_3._4
+namespace pr_4._4
 {
     public class Program
     {
@@ -13,7 +13,36 @@ namespace pr_3._4
             builder.Services.AddScoped<IMasterService, MasterService>();
             builder.Services.AddScoped<IReceptionService, ReceptionService>();
             builder.Services.AddScoped<IServiceService, ServiceService>();
+            builder.Services.AddLogging();
             var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<HairSalonContext>();
+                try
+                {                    
+                    var retries = 6;
+                    while (retries > 0)
+                    {
+                        try
+                        {
+                            context.Database.CanConnect();
+                            break;
+                        }
+                        catch
+                        {
+                            retries--;
+                            Thread.Sleep(10000);
+                        }
+                    }                    
+                    context.Database.Migrate();
+                }
+                catch (Exception ex)
+                {
+                    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "Ошибка при применении миграций");
+                }
+            }
 
             app.MapGet("/api/masters", async (HairSalonContext context, IMasterService masterService) =>
             {
